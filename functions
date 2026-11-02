@@ -1,0 +1,23 @@
+def word():#just print hello world
+    print("hello world")
+word()
+
+def number(n):#square
+    print(n*n)
+number(5)
+
+def num(n):#even or odd
+    print(n%2==0,"even")
+num(4)
+
+def num(a,b):#add
+    print(a+b)
+num(10,12)
+
+def num(a,b):#among two largest number
+    if a>b:
+        print(a,"largest")
+    else:
+        b>a
+        print(b,"largest")
+num(10,12)

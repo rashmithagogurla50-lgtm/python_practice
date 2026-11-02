@@ -1,0 +1,10 @@
+arr=[]
+n=int(input("how many"))
+for i in range(n):
+    num=int(input("enter number"))
+    arr.append(num)
+checked=[]
+for i in arr:
+    if arr.count(i)==1 and i not in checked :
+        checked.append(i)
+        print(i,"freq=",arr.count(i))

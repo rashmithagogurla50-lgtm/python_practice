@@ -1,0 +1,3 @@
+def num(a,b,c):
+    arr=[]
+    for i in range(n)

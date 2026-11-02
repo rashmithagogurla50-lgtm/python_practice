@@ -1,0 +1,81 @@
+def word(n):#word
+    return n
+n=input("enter word")
+result=word(n)
+print(result)
+
+def square(n):#square
+   return n*n
+n=int(input("number"))
+result=square(n)
+print(result)
+
+def add(a,b):#add
+    return a+b
+a=int(input("number"))
+b=int(input("number"))
+result=add(a,b)
+print(result)
+
+def cube(n):#cube
+    return n*n*n
+n=int(input("number"))
+result=cube(n)
+print(result)
+
+def num(n): #even or odd
+    if n%2==0:
+        return "even"
+    else:
+        return "odd" 
+n=int(input("number"))
+result=num(n)
+print(result)
+
+def num(a,b):#largest numbers
+    if a>b:
+        return "a larger"
+    else:
+        return "b larger"
+a=int(input("number"))
+b=int(input("number"))
+result=num(a,b)
+print(result)
+
+def add(a,b): #add
+    return a+b
+a=int(input("a="))
+b=int(input("b="))
+result=add(a,b)
+print(result)
+
+def year(n):#leap year
+    if n%4==0:
+      return "leap year"
+    elif n%400==0 and n%100!=0:
+      return "leap year"
+    else:
+        return "not leap year"
+n=int(input("year"))
+result=year(n)
+print(result)
+
+def num(n):##factorization
+    import math
+    d=b*b-4*a*c
+    if d<0:
+       return(-1)
+    else:
+        root1=(-b+math.sqrt(d))/(2*a)
+        root2=(-b-math.sqrt(d))/(2*a)
+        root1=math.floor(root1)
+        root2=math.floor(root2)
+        if root1>=root2:
+           return(root1,root2)
+        else:
+           return(root2,root1)
+a=int(input("a="))
+b=int(input("b="))
+c=int(input("c="))
+result=num(n)
+print(result)

@@ -1,0 +1,24 @@
+def num():#local variable
+    a=100
+    print(a)
+num()
+a="wow really good"
+def word():#global variable both inside and outside
+    a="wow really good"
+    print(a,"inside")
+word()
+print(a,"outside")
+
+a=10#print both local and global
+def num():
+    a=20
+    print(a,"local")
+num()
+print(a,"global")
+
+a=0
+def num():
+    global a
+    a=1
+num()
+print(a)

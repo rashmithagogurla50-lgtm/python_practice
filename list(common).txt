@@ -1,0 +1,15 @@
+arr1=[]
+arr2=[]
+n=int(input("how many"))
+for i in range(n):
+    num=int(input("enter number"))
+    arr1.append(num)
+m=int(input("how many"))
+for i in range(m):
+    num=int(input("enter number"))
+    arr2.append(num)
+common=[]
+for i in arr1:
+    if i in arr2 and i not in common:
+        common.append(i)
+print(common) 

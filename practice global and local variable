@@ -1,0 +1,62 @@
+
+count=0##diff logic increasing count
+def increase():
+    global count
+    count=count+1
+increase()
+increase()
+increase()
+print(count)
+
+a=100
+def show():
+    a=20
+    print(a,"inside")
+show()
+print(a,"outside")
+
+a=5000
+def withdrawamount():
+    global b
+    b=500
+    print(a-b,"total")
+withdrawamount()
+
+count=0
+def counter():
+    global count
+    count=count+2
+counter()
+counter()
+counter()
+counter()
+print(count)
+
+x=10
+def test():
+    x=5
+    x=x+3
+    print(x,"local")
+test()
+print(x,"global")
+
+def show(n):
+    if n==0:
+       return
+    print(n)
+    show(n-1)
+show(5)
+
+def num(i,n):
+    if i>n:
+        return
+    print(i)
+    num(i+1,n)
+num(1,6)
+
+def show(n):
+    if n==0:
+        return
+    print(n)
+    show(n-1)
+show(3)

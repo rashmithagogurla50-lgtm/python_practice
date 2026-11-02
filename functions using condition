@@ -1,0 +1,27 @@
+def num(a,b,c):
+    print("sum",a+b+c)
+num(10,15,20)
+
+def square(n):
+    print("cube",n*n*n)
+square(3)
+
+def num(n):
+    if n>0:
+        print("positive")
+    elif n<0:
+        print("negative")
+    else:
+        print("zero")
+num(+3)
+
+def leapyear(n):
+    if n%400==0:
+        print("leap year")
+    elif n%4==0 and n%100!=0:
+        print("leap year")
+    else:
+        print("not leap year")
+leapyear(2023)
+
+

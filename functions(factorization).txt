@@ -1,0 +1,16 @@
+def num(a,b,c):
+    import math
+    d=b*b-4*a*c
+    if d<0:
+        print(-1)
+    else:
+       root1=(-b + math.sqrt(d))/(2*a)
+       root2=(-b - math.sqrt(d))/(2*a)
+       
+       root1=math.floor(root1)
+       root2=math.floor(root2)
+       if root1>=root2:
+        print(root1,root2)
+       else:
+        print(root2,root1)
+num(1,5,7)

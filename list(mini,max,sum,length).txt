@@ -1,0 +1,10 @@
+arr=[]
+n=int(input("how many"))
+for i in range(n):
+    num=int(input("enter number"))
+    arr.append(num)
+print(arr)
+print(len(arr))
+print(min(arr))
+print(max(arr))
+print(sum(arr))
